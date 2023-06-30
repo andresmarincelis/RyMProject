@@ -1,0 +1,17 @@
+.aboutContainer {
+    background-color: rgb(12, 12, 73);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .aboutTitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .aboutText {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }

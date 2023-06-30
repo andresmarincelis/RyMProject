@@ -1,0 +1,41 @@
+.App {
+  color: whitesmoke;
+  font-size:xx-large;
+  font-family:Trebuchet MS, Verdana, sans-serif;
+  font-weight: 1000;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px;
+ }
+ 
+ .title {
+   margin-top: 15px;
+   margin-bottom: 10px;
+   height: 200px;
+   border-radius: 10em;
+ }
+
+ .body {
+  background-image: url("../img/HubbleLegacyField.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+}
+ 
+.logoContainer {
+  width: 150px; /* Ajusta el tamaño del contenedor según tus necesidades */
+  height: 150px;
+  border-radius: 50%; /* Hace que el contenedor sea redondo */
+  border: 5px solid white; /* Agrega un borde blanco */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Agrega una sombra */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 20%; /* Ajusta el tamaño de la imagen para que ocupe todo el contenedor */
+  height: 100%;
+  border-radius: 50%; /* Hace que la imagen sea redonda */
+}
