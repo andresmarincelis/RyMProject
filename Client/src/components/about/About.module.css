@@ -1,17 +1,21 @@
-.aboutContainer {
-    background-color: rgb(12, 12, 73);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+.div {
+  color: black;
+  max-width: 50%;
+  background-color: rgba(255, 255, 255, 0.562);
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: 12rem;
+  padding: 2rem 5rem;
+  align-items: center;
+  text-align: justify;
   
-  .aboutTitle {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .aboutText {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-  }
+}
+.divh1 {
+  font-size: 2.2rem;
+  line-height: 0;
+}
+.divp {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}

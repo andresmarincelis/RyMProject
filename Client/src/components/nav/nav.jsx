@@ -1,23 +1,24 @@
 import SearchBar from "../searchbar/SearchBar";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import style from "./nav.module.css"
 
 const Nav = function (props) {
     const { onSearch, random } = props;
 
     return (
-        <nav>
+        <div>
             <SearchBar onSearch={onSearch} />
-            <button onClick={random}>RANDOM</button>
+            <button className={style.myButton} onClick={random}>RANDOM</button>
             <Link to={'/about'}>
-                <button>ABOUT</button>
+                <button className={style.myButton}>ABOUT</button>
             </Link>
             <Link to={'/home'}>
-                <button>HOME</button>
+                <button className={style.myButton}>HOME</button>
             </Link>
             <Link to={'/favorites'}>
-                <button>FAVORITES</button>
+                <button className={style.myButton}>FAVORITES</button>
             </Link>
-        </nav>
+        </div>
     )
 }
 

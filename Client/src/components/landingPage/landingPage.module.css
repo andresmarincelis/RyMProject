@@ -1,3 +1,4 @@
 .landingContainer {
+    display: flex;
     padding: 100px 150px;
 }
